@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Bitwse Opertors</h1>
+
+<script src="app.js"></script>
+
+
+
+<script>
+
+
+var a, s;
+
+var  x1, x2, y;
+
+x1 =15;
+
+x2 = 25;
+
+
+   
+s = (x1>>>0 ).toString(2);        
+s = "00000000000000000000000000000000".substr(s.length)+s;
+
+document.write(s+"<br/>")
+
+
+
+
+s = (x2>>>0 ).toString(2);        
+s = "00000000000000000000000000000000".substr(s.length)+s;
+
+document.write(s+"<br/>")
+
+
+
+
+
+y = x1 & x2; //  uopor ar prtek ta bitws ar protek ta amdir and hocce and hoye 
+
+// amadir y ta chole tar por se take parint korce
+
+s = (y>>>0 ).toString(2);        
+s = "00000000000000000000000000000000".substr(s.length)+s;
+
+document.write(s+" And print korlo" +"<br/>")
+
+
+
+y = x1 | x2;
+
+s = (y>>>0 ).toString(2);        
+s = "00000000000000000000000000000000 ".substr(s.length)+s;
+
+document.write(s + "Or ar Kaj ses korlam "  + "<br/>")
+
+
+
+
+
+
+y = x1 ^ x2; // Uxor 
+
+s = (y>>>0 ).toString(2);        
+s = "00000000000000000000000000000000 ".substr(s.length)+s;
+
+document.write(s + "UX ta dekta pabo "  + "<br/>")
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
